@@ -1,85 +1,74 @@
 # APE
 
-## Zweck von APE
+## Über APE
 
-APE ist eine leichtgewichtige Projektmanagement-Anwendung für den schulischen Einsatz.  
-Sie unterstützt Schülerinnen und Schüler dabei, Projekte strukturiert zu planen, Aufgaben zu organisieren und den Arbeitsstand im Team transparent zu machen.
+APE (Agile Projectmanagement in Education) ist eine leichtgewichtige Projektmanagement-Anwendung für den Unterricht.  
+Die Plattform unterstützt Schülerinnen und Schüler dabei, in Teams zu planen, Aufgaben zu strukturieren und Ergebnisse transparent festzuhalten.
 
-## Konzept
+## Kernidee
 
-APE ist bewusst einfach gehalten:
+- Zugriff ohne klassisches Benutzerkonto
+- Projektzugriff über einmalige, sichere Links
+- Fokus auf kollaboratives Arbeiten im Unterricht
+- Klare, reduzierte Oberfläche mit den wichtigsten Funktionen
 
-- Zugriff über einen einmaligen Projektlink
-- keine klassische Registrierung mit Benutzerkonto
-- Fokus auf kollaboratives Arbeiten in kleinen Projektteams
-- zentrale Funktionen für Planung, Aufgabenverwaltung und Projektdokumentation
+## Funktionsüberblick
 
-Damit bleibt die Einstiegshürde niedrig und die Nutzung im Unterricht unkompliziert.
+- Projektanlage mit Projektname, Teammitgliedern, Lehrkraft-E-Mail und Klasse
+- Einmaliger Projektlink für Lernende
+- Lehrkraft-Dashboard-Link mit Übersicht aller eigenen Projekte
+- Kanban-Board mit Priorität, Aufwand und optionalem Sprint (1-10)
+- Sprint-Filter im Board
+- Dokumentation mit Kollaborationshinweisen bei paralleler Bearbeitung
+- Repository-Bereich mit zwei Ansichten:
+- File Tree (Dateistruktur und aktuelle Dateien)
+- History (Commits und Diffs)
+- Kontaktformular für Fragen und Feedback
 
-## Funktionalitäten
+## Schnellstart (Lehrkraft oder SchülerInnen)
 
-### 1) Projekt anlegen
+1. APE öffnen und `Projekt erstellen` auswählen.
+2. Projektname eintragen.
+3. Vornamen der Teammitglieder hinzufügen.
+4. Lehrkraft-E-Mail und Klasse eintragen.
+5. Sicherheitscheck (Captcha) abschließen.
+6. Projekt anlegen.
+8. Projektlink an das Team weitergeben.
 
-- Ein neues Projekt kann in wenigen Schritten erstellt werden.
-- Für das Team werden die Vornamen der Schülerinnen und Schüler hinterlegt.
-- Optional kann eine Lehrkraft-E-Mail angegeben werden, um den Projektlink direkt zu versenden.
-- Nach Erstellung wird der einmalige Projektlink immer zusätzlich angezeigt und kann direkt kopiert werden.
+## Arbeiten im Projekt (Team)
 
-### 2) Projektzugriff über Link
+1. Projekt über den Projektlink öffnen.
+2. Aufgaben im Kanban-Board anlegen und Spalten nutzen (z. B. offen, in Arbeit, erledigt).
+3. Optional Sprint pro Aufgabe setzen und nach Sprint filtern.
+4. Ergebnisse in der Dokumentation fortlaufend festhalten.
+5. Im Repository Dateien/Commits nachvollziehen:
+- File Tree für den aktuellen Stand
+- History für Änderungen und Diffs
 
-- Der Zugriff erfolgt über einen projektgebundenen Einmallink.
-- Es gibt keine separate Konto- oder Passwortverwaltung für Lernende.
-- Das reduziert organisatorischen Aufwand und ist für den Unterricht schnell einsetzbar.
+## Lehrkraft-Dashboard
 
-### 3) Aufgaben- und Arbeitsorganisation (Kanban)
+Über den Lehrkraft-Dashboard-Link steht eine Übersicht aller eigenen Projekte zur Verfügung:
 
-- Aufgaben lassen sich in einem Board organisieren (z. B. offen, in Arbeit, erledigt).
-- Arbeitsstände im Team sind dadurch sofort sichtbar.
-- Aufgaben können priorisiert und zwischen Statusspalten verschoben werden.
+- Projekttabelle mit Klasse, Projektname und Teammitgliedern
+- Direkter Lesezugriff auf einzelne Projekte
+- Sortierung nach zentralen Spalten für schnellen Überblick
 
-### 4) Team- und Projekteinstellungen
+## Hinweise zur Nutzung
 
-- Teammitglieder können projektspezifisch verwaltet werden.
-- Relevante Projektdaten können in den Einstellungen angepasst werden.
-- Die Oberfläche ist auf einfache Bedienung und kurze Wege ausgelegt.
+- Der Projektlink ist der zentrale Zugriffsschlüssel und muss sicher gespeichert werden.
+- Vornamen und Lehrkraft-E-Mail sollten korrekt eingegeben werden.
+- Projekte und zugehörige Daten sind auf einen schulischen Einsatzzeitraum ausgelegt.
 
-### 5) Projektdokumentation
+## Datenschutz (Kurzfassung)
 
-- Ergebnisse und Zwischenstände können zentral im Projekt festgehalten werden.
-- Dadurch entsteht eine nachvollziehbare Projekthistorie für Unterricht, Feedback und Bewertung.
+- Kein verpflichtendes Lernenden-Konto
+- Zugriff über Projektlinks statt klassischer Login-Registrierung
+- Lehrkraft-E-Mail für Projektkommunikation und Dashboard-Zuordnung
+- Kontaktanfragen werden ausschließlich zur Bearbeitung der Anfrage verwendet
 
-### 6) Repository-/Dateibereich
-
-- Für Projekte steht ein angebundener Repository-Bereich zur Verfügung.
-- Dateien, Struktur und Änderungen können projektbezogen eingesehen werden.
-- Damit lassen sich auch technische oder dokumentenbasierte Arbeitsprozesse sauber begleiten.
-
-### 7) Kontaktformular
-
-- Über ein integriertes Kontaktformular können Fragen, Hinweise oder Feedback gesendet werden.
-- Die Anfragen werden an das APE-Kontaktpostfach weitergeleitet.
-
-## Typischer Ablauf im Unterricht
-
-1. Lehrkraft oder Team erstellt ein Projekt.
-2. Projektlink wird sicher geteilt.
-3. Team organisiert Aufgaben und Arbeitspakete im Board.
-4. Fortschritt und Ergebnisse werden fortlaufend dokumentiert.
-5. Abschluss mit transparentem Überblick über Beiträge und Projektstand.
-
-## Datenschutz
-
-APE ist so gestaltet, dass nur die für den Projektbetrieb notwendigen Daten verarbeitet werden.
-
-- Kein verpflichtendes Nutzerkonto für Schülerinnen und Schüler
-- Zugriff primär über den einmaligen Projektlink
-- Optionale E-Mail-Nutzung nur für den Versand des Projektlinks oder bei Kontaktanfragen
-
-Hinweis: Der konkrete schulische Einsatz sollte immer entsprechend der lokalen Datenschutzvorgaben und schulischen Regelungen erfolgen.
+Hinweis: Für den konkreten Einsatz sollten immer die schulischen und lokalen Datenschutzvorgaben beachtet werden.
 
 ## Kontakt
-
-Bei Fragen, Feedback oder Anregungen:
 
 - E-Mail: ape@knstntn.dev
 
